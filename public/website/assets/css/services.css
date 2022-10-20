@@ -1,0 +1,135 @@
+.home
+{
+	width: 100%;
+	height: 473px;
+}
+.home-background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.home-container
+{
+	position: absolute;
+	left: 0;
+	bottom: 118px;
+	width: 100%;
+}
+.home-title
+{
+	font-size: 30px;
+	font-weight: 900;
+	color: #FFFFFF;
+}
+.home-title span
+{
+	color: #20d34a;
+}
+.breadcrumbs
+{
+	margin-top: -2px;
+}
+.breadcrumbs ul li
+{
+	display: inline-block;
+	position: relative;
+}
+.breadcrumbs ul li:not(:last-child)::after
+{
+	display: inline-block;
+	position: relative;
+	content: '/';
+	margin-left: 7px;
+	margin-right: 2px;
+}
+.breadcrumbs ul li,
+.breadcrumbs ul li a
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+
+.features{
+	width: 100%;
+	background: #283290;
+	padding-top: 95px;
+	padding-left: 62px;
+	padding-right: 63px;
+	padding-bottom: 95px;
+}
+
+.features .container{
+	max-width: 100%;
+}
+
+.features .container .row .col{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.feature{
+	width: calc((100% - 64px) / 3);
+}
+
+.feature:not(:last-child){
+	margin-bottom: 30px;
+}
+.feature-image
+{
+	width: 100%;
+}
+.feature-image img
+{
+	max-width: 100%;
+}
+.feature-content
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-left: 54px;
+	padding-top: 63px;
+	padding-bottom: 89px;
+	padding-right: 40px;
+}
+.feature-text
+{
+	margin-top: 34px;
+}
+
+/*********************************
+8. Text Section
+*********************************/
+
+.text-section
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 95px;
+	padding-bottom: 94px;
+}
+.text-section-image
+{
+	width: 100%;
+}
+.text-section-image img
+{
+	max-width: 100%;
+}
+.text-section-content
+{
+	width: 100%;
+	height: 100%;
+}
+.text-section-text
+{
+	margin-top: 34px;
+}
+.text-section-button
+{
+	margin-top: 52px;
+}

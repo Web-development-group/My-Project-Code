@@ -1,0 +1,64 @@
+body{
+	background-color: rgb(33 , 150 , 243);
+	padding: 0;
+	margin: 0;
+}
+
+.content{
+	margin-top: 13%;
+}
+
+h1 , h2 , a{
+	color: white;
+}
+
+.error-type h1{
+	text-align: right;
+    font-size: 15.375rem;
+    line-height: 1;
+}
+
+.error-msg h1{
+	font-size: 8rem;
+}
+
+.error-msg h2{
+	font-size: 2rem;
+}
+
+.error-msg {
+	border-left: 4px solid #eee;
+}
+
+.btn-home{
+	margin-top: 5%;
+}
+
+.btn-home a{
+	color: #fff;
+	font-size: 2rem;
+}
+
+.copyright{
+	margin-top: 5%;
+	color: #fff;
+}
+
+.copyright .fa{
+	color: red;
+}
+
+@media screen and (max-width: 1000px){
+    .error-type h1{
+		text-align: center;
+	    font-size: 15.375rem;
+	    line-height: 1;
+	}
+	.content{
+		text-align: center;
+	}
+
+	.error-msg{
+		border: none;
+	}
+}

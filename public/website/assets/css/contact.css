@@ -1,0 +1,91 @@
+
+.contact{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+
+.contact_text{
+	margin-top: 34px;
+	padding-right: 90px;
+}
+
+.contact_about_list{
+	margin-top: 48px;
+	list-style: none;
+}
+
+
+.contact_about_list li{
+	margin-top: 40px;
+}
+
+
+.contact_about_list li span{
+	font-size: 14px;
+	font-weight: 400;
+	color: #696969;
+	padding-left: 10px;
+}
+
+.contact_form_container{
+	width: 100%;
+}
+
+.contact_form{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.contact_input{
+	position: relative;
+	width: 100%;
+	height: 44px;
+	border: none;
+	outline: none;
+	background: #f5f7fa;
+	padding-left: 25px;
+}
+
+.contact_form > div:not(:last-child){
+	margin-bottom: 28px;
+}
+
+.input_container::after{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	content: '';
+	background: #20d34a;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.input_container:hover::after{
+	visibility: visible;
+	opacity: 1;
+}
+
+.contact_text_area{
+	height: 160px;
+	padding-top: 13px;
+}
+
+.contact_button{
+	display: inline-block;
+	position: relative;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 900;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+	margin-top: -8px;
+}

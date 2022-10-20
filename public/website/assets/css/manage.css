@@ -1,0 +1,173 @@
+body , html{
+	font-family: "open sans" , "Helvetica Neue" , Helvetica , Arial , sans-serif;
+	background-color: rgb(227 , 227 , 227); 
+	color: #333;
+	height: 100%;
+	font-weight: normal;
+	
+}
+
+/*studutre */
+.display-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.display-table-row{
+	display: table-row;
+	height: 100%;
+}
+
+.display-table-cell{
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+
+#sidebar1{
+	width: 10px;
+}
+
+#sidebar2{
+	width: 20%;
+}
+
+/*sidebar */
+#sidebar1{
+	background-color: rgb(11 , 69 , 153);
+	color: white;
+	height: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.active a {
+	color: #fff !important;
+}
+
+#sidebar1 ul{
+	list-style: none;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+#sidebar1 a{
+	text-decoration: none;
+	padding: 12px 20px;
+	font-size: 14px;
+	color: #9fb1c2;
+	display: block;
+}
+
+#sidebar1 a:hover{
+	background-color: rgb(15 , 62 , 130);
+	color: white;
+	border-radius: 20px;
+}
+
+#sidebar1 .fa{
+	font-size: 18px;
+}
+
+hr{
+	border: 0.3px solid #777;
+	margin-top: 50px;
+}
+
+#sidebar2 {
+	background-color: rgb(227 , 227 , 227); 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid #999;
+	padding: 0px;
+}
+
+#sidebar2 ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#sidebar2 ul#collapse-comment li , #sidebar2 ul#collapse-comment2 li  {
+	margin-left: 20px;
+}
+
+#sidebar2 a{
+	text-decoration: none;
+	color: #333;
+	display: block;
+}
+
+#sidebar2 a:hover{
+	color: rgb(11 , 69 , 153);
+}
+
+#sidebar2 span{
+	margin-right: 20px;
+}
+
+#sidebar2 span.fa{
+	font-size: 16px;
+}
+
+#sidebar2 h2{
+	color: #555;
+	padding: 20px;
+}
+
+#sidebar2 #collapse-comment a , #sidebar2 #collapse-comment a {
+	text-decoration: none;
+	display: block;
+	margin: 10px;
+}
+
+#sidebar2 #main-title{
+	background-color: rgb(217 , 222, 226);
+	color: rgb(11 , 69 , 153);
+	padding: 10px;
+	margin: 0px;
+}
+
+
+#sidebar2 ul#collapse-comment2 a{
+	margin: 15px;
+} 
+
+#main-content{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.input-text{
+	background-color: #eee; 
+	border: 1px solid #777;
+	display: block;
+	border-radius: 1px;
+}
+
+form .form-group{
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.btn-primary{
+	background-color: rgb(8 , 92 , 182);
+	border-radius: 1px;
+	width: 120px;
+}
+
+.jumbotron{
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#manage-account li  a{
+	color: #333 !important;
+}
+
+ label{
+	color: #666;
+	font-weight: normal;
+}
